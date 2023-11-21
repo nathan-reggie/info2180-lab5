@@ -1,1 +1,49 @@
 /* Add your own styles */
+header {
+    background-color: #C0C0C0;
+    display: flex;
+    justify-content: center;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttons {
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#result {
+    display:flex;
+    justify-content: center;
+}
+
+#lookup-cities {
+    background-color: rgb(8, 39, 241);
+    border: 0;
+    border-radius: .5rem;
+    height: fit-content;
+    padding: 1rem 1.5rem;
+    color: white;
+}
+
+#lookup-countries {
+    background-color: #28ffa5;
+    border: 0;
+    border-radius: .5rem;
+    height: fit-content;
+    padding: 1rem 1.5rem;
+}
+
+
+#country {
+    height: 2.5rem;
+    width: 800px;
+    border-radius: 5px;
+}
